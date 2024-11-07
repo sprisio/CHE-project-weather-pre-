@@ -1,0 +1,160 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   text-align: center;
+   font-family: Arial, sans-serif;
+   color: #333;
+   background-color: wheat;
+}
+
+header {
+  
+   background-color: #4CAF50;
+   padding: 20px;
+   text-align: center;
+}
+
+header h1 {
+   color: white;
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+}
+
+nav ul li {
+   margin: 0 15px;
+}
+
+nav ul li a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+section {
+   margin: 20px;
+   border: solid rgb(175, 166, 166);
+   margin-left: 15%;
+   padding: 20px;
+   width: 70%;
+   transition: all 0.3s ease-in-out 0s;
+}
+
+section:hover{
+   scale: 1.01;
+   border: solid black;
+   background-color: orange;
+   color: black;
+   transform: rotateX(180);
+}
+
+.chart-container {
+   width: 80%;
+   margin: 20px auto;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   max-width: 400px;
+   margin: auto;
+}
+
+label, input, textarea, button {
+   margin-bottom: 10px;
+}
+
+button {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px;
+   border: none;
+   cursor: pointer;
+}
+#statistics{
+   width: 40%;
+}
+header{
+  height: 120px;
+  background-image: url(./images/weatherpre.jpg);
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+nav a{
+   text-decoration: none;
+   color:black;
+   font-weight: bold;
+   margin: 10px;
+   transition: all 0.3s ease-in-out 0s;
+}
+nav{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+   
+
+}
+nav div{
+   transition: all 0.3s ease-in-out 0s;
+}
+nav div:hover{
+   scale: 1.07;
+}
+nav h1{
+   margin-right: 250px;
+   text-transform: uppercase;
+   background-color: black;
+   border-radius: 10px;
+   padding: 10px;
+  
+}
+
+#bar{
+   padding-top: 3px;
+   border: solid black;
+   height: 30px;
+   border-radius: 10px;
+   background-color: orange;
+
+}
+
+.importance{
+   height: 150px;
+   padding-top: 40px;
+   background-image: url(./images/DALL·E\ 2024-11-07\ 14.20.45\ -\ A\ high-tech\ weather\ forecasting\ station\ set\ against\ a\ cloudy\ sky\,\ with\ sleek\ monitors\ displaying\ advanced\ weather\ maps\,\ radar\ screens\,\ and\ satellite\ i.webp);
+   background-position: center;
+   color:black;
+   font-weight: bold;
+}
+ img{
+   height: 400px;
+   width: 600px;
+   margin: 20px;
+   border: solid black;
+}
+#test{
+
+   border: solid;
+   width: 1020px;
+   height: 370px;
+   background-image: url(./images/DALL·E\ 2024-11-07\ 14.54.07\ -\ A\ high-resolution\ image\ of\ a\ futuristic\ satellite\ in\ orbit\ around\ Earth\,\ capturing\ and\ analyzing\ weather\ data.\ The\ satellite\ has\ sleek\,\ metallic\ panel.webp);
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   background-size: cover
+}
+.methods img{
+   width: 900px;
+   height: 370px;
+}
